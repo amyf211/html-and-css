@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+/* Main elements */
+
+body {
+    background-image: linear-gradient(to bottom right, hotpink, Black, deepskyblue) ;
+    margin: 30px;
+    padding: 0px;
+  }
+
+main {
+    color:ghostwhite;
+    font-family: 'Montserrat';
+    font-size: 15px;
+}
+
+/* Headings */
+
+#Title {
+    color:deepskyblue;
+    font-family: 'Archivo Black';
+    text-align: center;
+    font-size: 100px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#Subtitle {
+    color:hotpink;
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+    padding: 0px;
+    margin: 10px;
+}
+
+#Subheading1 {
+    color:deepskyblue;
+    font-family: 'Archivo Black';
+    border-bottom: solid deepskyblue;
+}
+
+#Subheading2 {
+    color:hotpink;
+    font-family: 'Archivo Black', sans-serif;
+    border-bottom: solid ;
+}
+
+/* Links */
+
+a:link {
+    color: deepskyblue;
+    font-family: 'Montserrat';
+    font-size: small;
+  }
+  
+  a:visited {
+    color: deepskyblue;
+    font-family: 'Montserrat';
+    font-size: small;
+  }
+  
+  a:hover {
+    color: deeppink;
+    font-family: 'Montserrat';
+    font-size: small;
+  }
+
+  a:active {
+    color: deepskyblue;
+    font-family: 'Montserrat';
+    font-size: small;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-style: dashed;
+    border-color: deeppink;
+    border-radius: 25px;
+  }
+
+  ul {
+    list-style-type: circle;
+  }
+
+  audio {
+    display: block;
+    margin: auto;
+    padding: 15px;
+  }
